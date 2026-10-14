@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Request a consultation with Lumière Aesthetics and discuss your treatment goals." />
+    <title>Contact | LUMIÈRE AESTHETICS</title>
+    <link rel="stylesheet" href="../css/pages/contact.css" />
+    <script defer src="../js/common.js"></script>
+    <script defer src="../js/pages/contact.js"></script>
+  </head>
+  <body data-page="contact">
+    <header class="site-header">
+      <div class="container navbar">
+        <a class="brand" href="index.html" aria-label="Lumière Aesthetics home" style="color: var(--plum);">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span style="color: var(--plum);">LUMIÈRE AESTHETICS</span>
+        </a>
+        <nav class="nav-panel" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="treatments.html">Treatments</a>
+          <a class="nav-link" href="results.html">Results</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="journal.html">Journal</a>
+          <a class="nav-link is-active" href="contact.html">Contact</a>
+          <a class="nav-cta" href="contact.html">Book Consultation</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" type="button">
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero">
+        <div class="container page-hero-inner">
+          <div>
+            <span class="kicker">Consultation enquiry</span>
+            <h1>Begin with a thoughtful enquiry.</h1>
+            <p>Tell us your treatment interests and preferred experience. This is a request for contact and not a confirmed appointment.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 8px;">
+        <div class="container contact-layout">
+          <div class="info-card">
+            <span class="kicker">Studio details</span>
+            <h2 style="margin-top: 0; font-family: Georgia, 'Times New Roman', serif; color: var(--plum);">Lumière Aesthetics Studio</h2>
+            <p style="color: var(--muted);">28 Orchard Row, Suite 2B<br />Mayfair, London</p>
+            <p style="color: var(--muted);">hello@lumiereaesthetics.demo<br />+44 (0)20 5555 0123</p>
+            <div class="feature-list" style="margin-top: 26px;">
+              <article class="feature-card">
+                <h3>Consultation process</h3>
+                <p>We will contact you to understand your goals, discuss options and recommend the best next step.</p>
+              </article>
+              <article class="feature-card">
+                <h3>Lead handling</h3>
+                <p>We review new enquiries as a future-ready lead management process, not a medical screening decision.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="form-card">
+            <div class="stepper" aria-label="Enquiry progress">
+              <span class="is-active" aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </div>
+
+            <form id="consultationForm" novalidate>
+              <div class="form-step is-active" data-step="1">
+                <div class="field">
+                  <label for="treatmentCategory">Treatment category</label>
+                  <select id="treatmentCategory" name="treatmentCategory" aria-describedby="treatmentCategoryError">
+                    <option value="">Select a category</option>
+                  </select>
+                  <div class="error-text" id="treatmentCategoryError"></div>
+                </div>
+                <div class="field">
+                  <label for="preferredTreatment">Preferred treatment</label>
+                  <select id="preferredTreatment" name="preferredTreatment" aria-describedby="preferredTreatmentError">
+                    <option value="">Select a treatment</option>
+                  </select>
+                  <div class="error-text" id="preferredTreatmentError"></div>
+                </div>
+                <div class="field">
+                  <label for="mainAreaOfInterest">Main area of interest</label>
+                  <input id="mainAreaOfInterest" name="mainAreaOfInterest" type="text" placeholder="Optional" />
+                </div>
+                <div class="field">
+                  <label for="visitType">First visit or returning client</label>
+                  <select id="visitType" name="visitType">
+                    <option value="">Select one</option>
+                    <option value="New client">First visit</option>
+                    <option value="Returning client">Returning client</option>
+                  </select>
+                  <div class="error-text"></div>
+                </div>
+              </div>
+
+              <div class="form-step" data-step="2">
+                <div class="field">
+                  <label for="preferredDate">Preferred date</label>
+                  <input id="preferredDate" name="preferredDate" type="date" />
+                  <div class="error-text"></div>
+                </div>
+                <div class="field">
+                  <label for="preferredTimeWindow">Preferred time window</label>
+                  <select id="preferredTimeWindow" name="preferredTimeWindow">
+                    <option value="">Select a time window</option>
+                    <option value="Morning">Morning</option>
+                    <option value="Afternoon">Afternoon</option>
+                    <option value="Evening">Evening</option>
+                  </select>
+                  <div class="error-text"></div>
+                </div>
+                <div class="field">
+                  <label for="consultationFormat">In-person consultation or callback</label>
+                  <select id="consultationFormat" name="consultationFormat">
+                    <option value="">Select one</option>
+                    <option value="In-person consultation">In-person consultation</option>
+                    <option value="Callback">Callback</option>
+                  </select>
+                  <div class="error-text"></div>
+                </div>
+                <div class="field">
+                  <label for="practitionerType">Preferred practitioner type</label>
+                  <select id="practitionerType" name="practitionerType">
+                    <option value="">Select one</option>
+                    <option value="Medical practitioner">Medical practitioner</option>
+                    <option value="Aesthetician">Aesthetician</option>
+                    <option value="Skin therapist">Skin therapist</option>
+                    <option value="No preference">No preference</option>
+                  </select>
+                  <div class="error-text"></div>
+                </div>
+              </div>
+
+              <div class="form-step" data-step="3">
+                <div class="field">
+                  <label for="fullName">Full name</label>
+                  <input id="fullName" name="fullName" type="text" placeholder="Your name" />
+                  <div class="error-text"></div>
+                </div>
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" placeholder="you@example.com" />
+                  <div class="error-text"></div>
+                </div>
+                <div class="field">
+                  <label for="phone">Phone</label>
+                  <input id="phone" name="phone" type="tel" placeholder="Your phone number" />
+                  <div class="error-text"></div>
+                </div>
+                <div class="field">
+                  <label for="contactMethod">Preferred contact method</label>
+                  <select id="contactMethod" name="contactMethod">
+                    <option value="">Select one</option>
+                    <option value="Email">Email</option>
+                    <option value="Phone">Phone</option>
+                    <option value="Text message">Text message</option>
+                  </select>
+                  <div class="error-text"></div>
+                </div>
+                <div class="field">
+                  <label for="message">Short message</label>
+                  <textarea id="message" name="message" placeholder="Tell us a little about your goals or questions"></textarea>
+                  <div class="error-text"></div>
+                </div>
+              </div>
+
+              <div class="form-step" data-step="4">
+                <div class="summary-box" id="summaryReview" aria-live="polite">
+                  <div class="summary-item"><span>Interest</span><strong>Not selected</strong></div>
+                  <div class="summary-item"><span>Category</span><strong>Not selected</strong></div>
+                  <div class="summary-item"><span>Client type</span><strong>Not selected</strong></div>
+                  <div class="summary-item"><span>Preferred date</span><strong>Not selected</strong></div>
+                  <div class="summary-item"><span>Preferred contact</span><strong>Not selected</strong></div>
+                </div>
+                <div class="field" style="margin-top: 18px;">
+                  <label class="checkbox-item" for="consentCheck" style="display: inline-flex; align-items: center; gap: 10px;">
+                    <input id="consentCheck" name="consent" type="checkbox" />
+                    I understand this is a request for contact and not a confirmed appointment.
+                  </label>
+                  <div class="error-text"></div>
+                </div>
+              </div>
+
+              <div class="form-actions">
+                <button id="prevStep" class="btn btn-soft" type="button">Back</button>
+                <div class="inline-actions">
+                  <button id="nextStep" class="btn btn-dark" type="button">Next</button>
+                  <button id="submitEnquiry" class="btn btn-dark" type="submit" style="display:none;">Submit enquiry</button>
+                </div>
+              </div>
+
+              <div id="submitStatus" class="submit-status" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <div>
+          <div class="footer-brand">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span style="font-family: Georgia, 'Times New Roman', serif; font-size: 1.1rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--plum);">LUMIÈRE AESTHETICS</span>
+          </div>
+          <p style="color: var(--muted); max-width: 360px;">Thoughtful, luxury-led medical aesthetics guidance for your next confident step.</p>
+        </div>
+        <div class="footer-column">
+          <h4>Navigation</h4>
+          <a href="index.html">Home</a>
+          <a href="treatments.html">Treatments</a>
+          <a href="results.html">Results</a>
+          <a href="about.html">About</a>
+        </div>
+        <div class="footer-column">
+          <h4>Explore</h4>
+          <a href="journal.html">Journal</a>
+          <a href="contact.html">Contact</a>
+          <a href="contact.html">Book consultation</a>
+        </div>
+        <div class="footer-column">
+          <h4>Visit</h4>
+          <p>28 Orchard Row<br />Mayfair, London</p>
+          <p>hello@lumiereaesthetics.demo</p>
+          <p>+44 (0)20 5555 0123</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Lumière Aesthetics.</span>
+        <span>Digital experience crafted by Webbynihal Agency.</span>
+      </div>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite">
+      <span>Digital experience crafted by Webbynihal Agency.</span>
+      <button class="toast-close" type="button" aria-label="Dismiss agency credit">×</button>
+    </div>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Browse Lumière Aesthetics treatment results and illustrative transformations." />
+    <title>Results | LUMIÈRE AESTHETICS</title>
+    <link rel="stylesheet" href="../css/pages/results.css" />
+    <script defer src="../js/common.js"></script>
+    <script defer src="../js/pages/results.js"></script>
+  </head>
+  <body data-page="results">
+    <header class="site-header">
+      <div class="container navbar">
+        <a class="brand" href="index.html" aria-label="Lumière Aesthetics home" style="color: var(--plum);">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span style="color: var(--plum);">LUMIÈRE AESTHETICS</span>
+        </a>
+        <nav class="nav-panel" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="treatments.html">Treatments</a>
+          <a class="nav-link is-active" href="results.html">Results</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="journal.html">Journal</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-cta" href="contact.html">Book Consultation</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" type="button">
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero">
+        <div class="container page-hero-inner">
+          <div>
+            <span class="kicker">Results gallery</span>
+            <h1>Illustrative treatment stories.</h1>
+            <p>These results showcase sample presentation imagery for a luxury portfolio prototype. All imagery is labelled as illustrative and not a guarantee of personal outcomes.</p>
+          </div>
+          <a class="btn btn-dark" href="contact.html">Book consultation</a>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0;">
+        <div class="container">
+          <div class="inline-actions" style="margin-bottom: 22px;">
+            <button class="btn btn-soft is-active" type="button" data-result-filter="all">All</button>
+            <button class="btn btn-soft" type="button" data-result-filter="Injectables">Injectables</button>
+            <button class="btn btn-soft" type="button" data-result-filter="Skin Rejuvenation">Skin Rejuvenation</button>
+            <button class="btn btn-soft" type="button" data-result-filter="Facials">Facials</button>
+            <button class="btn btn-soft" type="button" data-result-filter="Laser Treatments">Laser Treatments</button>
+            <button class="btn btn-soft" type="button" data-result-filter="Body Treatments">Body Treatments</button>
+            <button class="btn btn-soft" type="button" data-result-filter="Wellness">Wellness</button>
+          </div>
+          <div id="resultsGallery" class="result-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <div>
+          <div class="footer-brand">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span style="font-family: Georgia, 'Times New Roman', serif; font-size: 1.1rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--plum);">LUMIÈRE AESTHETICS</span>
+          </div>
+          <p style="color: var(--muted); max-width: 360px;">Luxury skin and treatment experiences designed with clarity, elegance and natural confidence.</p>
+        </div>
+        <div class="footer-column">
+          <h4>Navigation</h4>
+          <a href="index.html">Home</a>
+          <a href="treatments.html">Treatments</a>
+          <a href="results.html">Results</a>
+          <a href="about.html">About</a>
+        </div>
+        <div class="footer-column">
+          <h4>Explore</h4>
+          <a href="journal.html">Journal</a>
+          <a href="contact.html">Contact</a>
+          <a href="contact.html">Book consultation</a>
+        </div>
+        <div class="footer-column">
+          <h4>Visit</h4>
+          <p>28 Orchard Row<br />Mayfair, London</p>
+          <p>hello@lumiereaesthetics.demo</p>
+          <p>+44 (0)20 5555 0123</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Lumière Aesthetics.</span>
+        <span>Digital experience crafted by Webbynihal Agency.</span>
+      </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="lightbox-content" role="dialog" aria-modal="true" aria-label="Treatment gallery image">
+        <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close lightbox">×</button>
+        <button class="lightbox-prev" id="lightboxPrev" type="button" aria-label="Previous image">‹</button>
+        <img id="lightboxImage" src="" alt="" loading="lazy" />
+        <div class="lightbox-caption">
+          <p id="lightboxCaption"></p>
+        </div>
+        <button class="lightbox-next" id="lightboxNext" type="button" aria-label="Next image">›</button>
+      </div>
+    </div>
+
+    <div class="toast" role="status" aria-live="polite">
+      <span>Digital experience crafted by Webbynihal Agency.</span>
+      <button class="toast-close" type="button" aria-label="Dismiss agency credit">×</button>
+    </div>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
