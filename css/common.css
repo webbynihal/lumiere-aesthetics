@@ -296,7 +296,7 @@ body.menu-open {
   position: relative;
   background:
     linear-gradient(90deg, rgba(16, 10, 22, 0.76), rgba(16, 10, 22, 0.38)),
-    url('https://cdn.prod.website-files.com/67156a76116b8898941d6e97/671577751ef5c1ab91d6ae03_AdobeStock_474048762.jpeg') center/cover no-repeat;
+    url("../assessts/hero%20img.webp") center/cover no-repeat;
   min-height: 780px;
   display: flex;
   align-items: center;
