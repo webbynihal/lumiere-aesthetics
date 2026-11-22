@@ -85,6 +85,17 @@
                   </select>
                   <div class="error-text" id="preferredTreatmentError"></div>
                 </div>
+                <div class="field" id="budgetField" hidden>
+                  <label for="budgetPreference">Budget preference</label>
+                  <select id="budgetPreference" name="budgetPreference">
+                    <option value="">Select a budget</option>
+                    <option value="Under $100">Under $100</option>
+                    <option value="$100–$250">$100–$250</option>
+                    <option value="$250–$500">$250–$500</option>
+                    <option value="$500+">$500+</option>
+                    <option value="Not sure yet">Not sure yet</option>
+                  </select>
+                </div>
                 <div class="field">
                   <label for="mainAreaOfInterest">Main area of interest</label>
                   <input id="mainAreaOfInterest" name="mainAreaOfInterest" type="text" placeholder="Optional" />
@@ -122,17 +133,6 @@
                     <option value="">Select one</option>
                     <option value="In-person consultation">In-person consultation</option>
                     <option value="Callback">Callback</option>
-                  </select>
-                  <div class="error-text"></div>
-                </div>
-                <div class="field">
-                  <label for="practitionerType">Preferred practitioner type</label>
-                  <select id="practitionerType" name="practitionerType">
-                    <option value="">Select one</option>
-                    <option value="Medical practitioner">Medical practitioner</option>
-                    <option value="Aesthetician">Aesthetician</option>
-                    <option value="Skin therapist">Skin therapist</option>
-                    <option value="No preference">No preference</option>
                   </select>
                   <div class="error-text"></div>
                 </div>

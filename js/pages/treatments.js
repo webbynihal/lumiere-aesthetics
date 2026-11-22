@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <div class="treatment-actions">
             <a class="btn btn-soft" href="treatment.html?id=${treatment.id}">View treatment</a>
-            <a class="btn btn-dark" href="contact.html">Book consultation</a>
+            <a class="btn btn-dark" href="contact.html?treatment=${treatment.id}">Book this treatment</a>
           </div>
         </div>
       </article>

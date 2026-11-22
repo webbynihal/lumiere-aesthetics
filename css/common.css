@@ -1044,6 +1044,10 @@ body.menu-open {
   margin-bottom: 16px;
 }
 
+.field[hidden] {
+  display: none;
+}
+
 .field textarea {
   min-height: 120px;
   resize: vertical;

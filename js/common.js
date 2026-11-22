@@ -19,7 +19,7 @@ const TREATMENTS = [
     slug: 'wrinkle-relaxing',
     name: 'Wrinkle Relaxing Consultation',
     category: 'Injectables',
-    image: 'https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=900&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY_eQpLgUY3Mvq9QDfYiz4z77IB9Q13dN6ij27DZqGPw&s=10',
     shortDescription: 'Tailored consult for softening expression lines and refining facial balance.',
     fullDescription: 'This consultation covers a considered assessment of facial movement and treatment goals, with an emphasis on natural-looking balance and a tailored, gradual approach. It is designed for individuals wanting to explore options for softening lines while preserving expression. Treatments involving prescription products or injectable procedures require assessment by an appropriately qualified practitioner.',
     skinConcerns: ['Fine lines', 'General skin maintenance'],
@@ -51,7 +51,7 @@ const TREATMENTS = [
     slug: 'dermal-filler',
     name: 'Dermal Filler Consultation',
     category: 'Injectables',
-    image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZuM5Uz61pDOvcVnw7iykeOgq7GFHbvNHGxFIxgo0Zow&s=10',
     shortDescription: 'Consultation to discuss facial contouring, hydration support and subtle enhancement.',
     fullDescription: 'This tailored consultation is designed to discuss volume support, skin hydration goals and balance within the facial features. It is intended as a way to understand treatment options, expected outcomes and realistic treatment planning. Injectable treatments require professional assessment, and suitability depends on individual anatomy and clinical context.',
     skinConcerns: ['Fine lines', 'General skin maintenance'],
@@ -83,7 +83,7 @@ const TREATMENTS = [
     slug: 'microneedling',
     name: 'Microneedling',
     category: 'Skin Rejuvenation',
-    image: 'https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=900&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1MZfXzdyjPJ1wyD0SOt3FO6s-4THwy1RRXLhx2FjsQ&s=10',
     shortDescription: 'Stimulating skin renewal process for tone, texture and overall radiance.',
     fullDescription: 'Microneedling uses controlled micro-injuries to encourage the skin’s natural renewal cycle and help improve the appearance of texture, tone and general radiance. This treatment is designed around a professional assessment and may be tailored depending on skin condition, complexion and overall goals. It is not a guarantee of specific results and requires an appropriate consultation.',
     skinConcerns: ['Texture', 'Uneven tone', 'Dehydration'],
@@ -115,7 +115,7 @@ const TREATMENTS = [
     slug: 'chemical-peels',
     name: 'Chemical Peels',
     category: 'Skin Rejuvenation',
-    image: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=900&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmA790IjiHPe49qOGDubhY10Z1A_-7XE0z-zv_nsbGRw&s=10',
     shortDescription: 'Layered resurfacing solution to help soften roughness and rejuvenate texture.',
     fullDescription: 'Chemical peels are used to encourage skin renewal and can be tailored to a range of concerns such as rough texture, dullness and uneven tone. These treatments require a proper professional assessment to determine appropriate strength and frequency. The treatment plan and expected skin response vary from person to person.',
     skinConcerns: ['Uneven tone', 'Texture', 'Congestion'],
@@ -147,7 +147,7 @@ const TREATMENTS = [
     slug: 'hydrating-facial',
     name: 'Hydrating Facial',
     category: 'Facials',
-    image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpZ4L5x9NVBB2PwY8A8wrhwmS6LFhnPz0Nod5y-sGVDQ&s=10',
     shortDescription: 'Comforting, moisture-rich facial treatment for a fresh, plump dewy finish.',
     fullDescription: 'A hydrating facial is designed to deliver comforting moisture support, improve the skin’s appearance of suppleness and leave the skin feeling replenished. This treatment is often chosen as a maintenance step for dehydrated or stressed skin and may be adapted depending on sensitivity and goals. It is not a medical treatment and outcomes vary by skin type.',
     skinConcerns: ['Dehydration', 'General skin maintenance'],
@@ -179,7 +179,7 @@ const TREATMENTS = [
     slug: 'deep-cleansing-facial',
     name: 'Deep Cleansing Facial',
     category: 'Facials',
-    image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfhwMylfiRj-yPXlCHzIcYEOpnHtjamrCtyz9shv6rVA&s=10',
     shortDescription: 'Clarifying treatment designed to refresh congested, dull-looking skin.',
     fullDescription: 'A deep cleansing facial is often chosen as a reset for skin that feels congested, tired or more textured. It typically includes thorough cleansing, gentle exfoliation and targeted finishing steps to support a smoother and clearer-looking complexion. Suitability depends on skin sensitivity and should be discussed during your consultation.',
     skinConcerns: ['Congestion', 'Texture', 'Uneven tone'],
@@ -211,7 +211,7 @@ const TREATMENTS = [
     slug: 'laser-hair-reduction',
     name: 'Laser Hair Reduction',
     category: 'Laser Treatments',
-    image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtsEKzdpVRh7LrEeKmGJvg-s0G_3NgPDDB-SdjUxcDCg&s=10',
     shortDescription: 'Consultation and treatment planning for long-term hair reduction goals.',
     fullDescription: 'Laser hair reduction is a targeted treatment that seeks to reduce visible hair growth over time. This requires a professional assessment to confirm suitability, skin tone, treatment area and expected course of treatment. It is not a guarantee of permanent hair removal and results vary based on individual factors and hair growth patterns.',
     skinConcerns: ['Unwanted hair'],
@@ -243,7 +243,7 @@ const TREATMENTS = [
     slug: 'ipl-skin',
     name: 'IPL Skin Treatments',
     category: 'Laser Treatments',
-    image: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=900&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuyDL-lN9NBVuRAL2DK912wnkO__2nbByCs0zD00J25A&s=10',
     shortDescription: 'Light-based skin refinement for a more even-looking complexion.',
     fullDescription: 'IPL treatments are designed to support a more even-looking complexion by addressing visible changes in skin tone and brightness. A proper consultation is required to verify suitability, especially where pigmentation or sensitivity is involved. Responses vary and the treatment should be selected carefully based on skin type and history.',
     skinConcerns: ['Uneven tone', 'General skin maintenance'],
@@ -275,7 +275,7 @@ const TREATMENTS = [
     slug: 'radiofrequency-skin',
     name: 'Radiofrequency Skin Treatment',
     category: 'Laser Treatments',
-    image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx746jaugoFohH8h6MYhdCrPPUEAUIPkjNu87z-v6slg&s=10',
     shortDescription: 'Collagen-supportive skin tightening treatment for statement of firmness and tone.',
     fullDescription: 'Radiofrequency treatments aim to support skin firmness and improve the look of mild laxity using controlled thermal stimulation. A consultation is recommended to determine whether this approach aligns with your goals, skin tolerance and treatment plan. The treatment is a non-surgical consideration and not a guarantee of dramatic changes.',
     skinConcerns: ['Fine lines', 'Texture', 'General skin maintenance'],
@@ -307,7 +307,7 @@ const TREATMENTS = [
     slug: 'led-light-therapy',
     name: 'LED Light Therapy',
     category: 'Skin Rejuvenation',
-    image: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=900&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIkfkTUMLXeEtAr9CDvx4uWcLKEMErPwRFQYqNbUwlvA&s=10',
     shortDescription: 'A gentle, low-downtime light treatment for energized, calm skin.',
     fullDescription: 'LED therapy uses different wavelengths to support the skin’s natural repair and calming processes. It is often used as an adjunctive treatment during a skin maintenance plan or as part of a brighter, more balanced skin routine. It is not a replacement for a full medical assessment and suitability should be discussed with a qualified practitioner.',
     skinConcerns: ['General skin maintenance', 'Dehydration'],
@@ -339,7 +339,7 @@ const TREATMENTS = [
     slug: 'skin-resurfacing',
     name: 'Skin Resurfacing',
     category: 'Skin Rejuvenation',
-    image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr9POrBQwRsHoawT1XYyFwf52gqthGlYUFF4vGzXmhfw&s=10',
     shortDescription: 'Refining treatment designed to smooth texture and improve skin clarity.',
     fullDescription: 'Skin resurfacing treatments can be used to help improve the appearance of uneven texture, roughness and dullness. They are chosen following a professional assessment, with treatment strength adjusted according to skin tolerance, concerns and recent skin history. Results depend on the individual and should be approached with realistic expectations.',
     skinConcerns: ['Texture', 'Uneven tone', 'Congestion'],
@@ -371,7 +371,7 @@ const TREATMENTS = [
     slug: 'body-contouring',
     name: 'Body Contouring Consultation',
     category: 'Body Treatments',
-    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmjZ4Yrvifc3muJmLsjAEc-W6NytZv-x1mD7I3U0fITQ&s=10',
     shortDescription: 'Consultation to assess sculpting goals and non-surgical treatment options.',
     fullDescription: 'Body contouring consultations are designed to understand treatment goals around body shape, definition and overall confidence. They are not a medical diagnosis and should be approached as part of a broader assessment of the relevant treatment options. Suitability depends on lifestyle, skin condition and an appropriately qualified practitioner’s assessment.',
     skinConcerns: ['General skin maintenance'],
@@ -403,7 +403,7 @@ const TREATMENTS = [
     slug: 'skin-consultation',
     name: 'Personalized Skin Consultation',
     category: 'Wellness',
-    image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAZfQS-RcXuDwYkVr4UKGkowddAmGpOXbjOPbdvPGGmw&s=10',
     shortDescription: 'A comprehensive skin assessment to build a realistic care plan for your goals.',
     fullDescription: 'A personalized skin consultation provides the opportunity to review skin concerns, daily habits and treatment goals in a considered, non-judgmental environment. It helps map a plan for home care, maintenance treatments and long-term skin support, always with realistic expectations and a focus on safety. This is not a medical diagnosis and may be used to inform a future treatment pathway.',
     skinConcerns: ['General skin maintenance', 'Dehydration', 'Fine lines'],
@@ -437,35 +437,35 @@ const RESULTS = [
     id: 'result-1',
     category: 'Skin Rejuvenation',
     treatment: 'Microneedling',
-    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlvWKM_FIQnNz1MldhHY-8Nmdq0JRsZ7TmaK0nybDz7Q&s=10',
     caption: 'Illustrative treatment result for refreshed skin texture and luminosity.'
   },
   {
     id: 'result-2',
     category: 'Facials',
     treatment: 'Hydrating Facial',
-    image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR90QLVmlZnpJrl3W7JRLGj0Gm1aYiLdHIkxGqnaLa3ZQ&s=10',
     caption: 'Hydration-focused facial treatment for a plumper, calmer finish.'
   },
   {
     id: 'result-3',
     category: 'Injectables',
     treatment: 'Wrinkle Relaxing Consultation',
-    image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkXnmqUAlzAUg6WACuhj8UZcy_cAiJ7gANqp6y28N4Dg&s=10',
     caption: 'Consultation-led aesthetic planning for soft, balanced expression work.'
   },
   {
     id: 'result-4',
     category: 'Laser Treatments',
     treatment: 'IPL Skin Treatments',
-    image: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgrRHZGiT-BwsDdEv_SjfTLnncM691UvzFMArGLjbCgg&s=10',
     caption: 'Illustrative tone-refining result using light therapy in a guided treatment plan.'
   },
   {
     id: 'result-5',
     category: 'Body Treatments',
     treatment: 'Body Contouring Consultation',
-    image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHEILynvLmTgPecRrkczy76m9aCx-9o2r-46avtxReKg&s=10',
     caption: 'Consultation-led contouring discussion for sculpting-focused goals.'
   },
   {
@@ -542,7 +542,7 @@ const ARTICLES = [
     date: '2026-09-11',
     author: 'Lumière Editorial Team',
     readingTime: '5 min read',
-    cover: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80',
+    cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjvKeqCMaELdfucJ6ziEAlFF-LQxDOPhudxTjkNweZ7Q&s=10',
     excerpt: 'A clear consultation helps you understand how treatment goals, skin history and realistic expectations come together.',
     content: [
       'An aesthetic consultation is often the first step in understanding what a treatment might involve, what to expect and how a plan can support your goals. It is not a medical diagnosis, but it is a key time to ask questions, learn about the treatment approach and discuss realistic outcomes.',
@@ -574,7 +574,7 @@ const ARTICLES = [
     date: '2026-08-07',
     author: 'Lumière Editorial Team',
     readingTime: '4 min read',
-    cover: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80',
+    cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXnlnoS64SGOjVsQzIVxO-JBnrOrxgIJncET8xhHGNuw&s=10',
     excerpt: 'Facials are often a supportive, relaxing treatment that can help with hydration, comfort and skin maintenance.',
     content: [
       'Facials generally begin with a consultation and skin assessment so the treatment can be adapted to your skin condition. This may include discussion of any sensitivity, recent products or goals such as hydration, radiance or a calmer complexion.',
@@ -590,7 +590,7 @@ const ARTICLES = [
     date: '2026-07-15',
     author: 'Lumière Editorial Team',
     readingTime: '5 min read',
-    cover: 'https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=1200&q=80',
+    cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2E56MJ4v-N5xBvvedNaxU7XSOoyprz-S-3YkNcDfXSA&s=10',
     excerpt: 'A thoughtful consultation is easier when you arrive with clear goals, questions and the right information for your skin.',
     content: [
       'Preparing for a treatment consultation can help you feel more confident and make the most of the time. It helps to think about the areas or concerns you want to discuss, any routines you already follow and the type of outcome you hope to achieve.',
@@ -606,7 +606,7 @@ const ARTICLES = [
     date: '2026-06-28',
     author: 'Lumière Editorial Team',
     readingTime: '6 min read',
-    cover: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1200&q=80',
+    cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ97ZOgDOJiQsTCr4fRUSrIag50WCEK2V_S_MCjVVcIsg&s=10',
     excerpt: 'Aftercare is just as important as the treatment itself, helping the skin settle and maintain long-term comfort.',
     content: [
       'Recovery and aftercare vary depending on the treatment, but the principle remains the same: support the skin as it settles and protect it from irritation or excess stress.',
@@ -622,7 +622,7 @@ const ARTICLES = [
     date: '2026-06-02',
     author: 'Lumière Editorial Team',
     readingTime: '5 min read',
-    cover: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80',
+    cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4H7zeMb8F8oAyqTD1gVFqg7TcOnJBtrwJ-h4p_I4jVA&s=10',
     excerpt: 'The right questions can help you feel informed, comfortable and prepared before a treatment decision.',
     content: [
       'A good consultation should leave you feeling informed rather than rushed. It is helpful to ask about the treatment process, the likely experience, aftercare and whether the practitioner feels the plan is suitable for your goals.',
@@ -770,7 +770,7 @@ function renderHomeCollections() {
           </div>
           <div class="treatment-actions">
             <a class="btn btn-soft" href="treatment.html?id=${treatment.id}">View treatment</a>
-            <a class="btn btn-dark" href="contact.html">Book consultation</a>
+            <a class="btn btn-dark" href="contact.html?treatment=${treatment.id}">Book this treatment</a>
           </div>
         </div>
       </article>
@@ -868,7 +868,7 @@ function renderTreatments() {
           </div>
           <div class="treatment-actions">
             <a class="btn btn-soft" href="treatment.html?id=${treatment.id}">View treatment</a>
-            <a class="btn btn-dark" href="contact.html">Book consultation</a>
+            <a class="btn btn-dark" href="contact.html?treatment=${treatment.id}">Book this treatment</a>
           </div>
         </div>
       </article>
@@ -1081,7 +1081,7 @@ function renderTreatmentDetail() {
           </div>
         </div>
         <div class="inline-actions" style="margin-top: 24px;">
-          <a class="btn btn-dark" href="contact.html">Book consultation</a>
+          <a class="btn btn-dark" href="contact.html?treatment=${treatment.id}">Book this treatment</a>
           <a class="btn btn-soft" href="treatments.html">Explore all</a>
         </div>
       </aside>
@@ -1454,6 +1454,7 @@ function initConsultationForm() {
   const statusBox = document.getElementById('submitStatus');
   const consentCheckbox = document.getElementById('consentCheck');
   let currentStepIndex = 0;
+  let treatmentSelectedFromLink = null;
 
   function getFieldValue(name) {
     const field = form.querySelector(`[name="${name}"]`);
@@ -1472,10 +1473,12 @@ function initConsultationForm() {
     const clientType = getFieldValue('visitType') || 'Not selected';
     const dateValue = getFieldValue('preferredDate');
     const preferredContact = getFieldValue('contactMethod') || 'Not selected';
+    const budget = getFieldValue('budgetPreference');
 
     summaryReview.innerHTML = `
       <div class="summary-item"><span>Interest</span><strong>${treatmentName}</strong></div>
       <div class="summary-item"><span>Category</span><strong>${category}</strong></div>
+      ${!treatmentSelectedFromLink && budget ? `<div class="summary-item"><span>Budget</span><strong>${budget}</strong></div>` : ''}
       <div class="summary-item"><span>Client type</span><strong>${clientType}</strong></div>
       <div class="summary-item"><span>Preferred date</span><strong>${dateValue ? formatDate(dateValue) : 'Not selected'}</strong></div>
       <div class="summary-item"><span>Preferred contact</span><strong>${preferredContact}</strong></div>
@@ -1536,7 +1539,7 @@ function initConsultationForm() {
   function validateCurrentStep() {
     const requiredMap = {
       0: ['treatmentCategory', 'preferredTreatment', 'visitType'],
-      1: ['preferredDate', 'preferredTimeWindow', 'consultationFormat', 'practitionerType'],
+      1: ['preferredDate', 'preferredTimeWindow', 'consultationFormat'],
       2: ['fullName', 'email', 'phone', 'contactMethod'],
       3: ['consent']
     };
@@ -1594,11 +1597,6 @@ function initConsultationForm() {
 
       if (fieldName === 'consultationFormat' && !value) {
         showError(fieldName, 'Please choose how you would like to be contacted.');
-        if (!foundInvalid) foundInvalid = fieldName;
-      }
-
-      if (fieldName === 'practitionerType' && !value) {
-        showError(fieldName, 'Please choose a practitioner preference.');
         if (!foundInvalid) foundInvalid = fieldName;
       }
 
@@ -1709,6 +1707,7 @@ function initConsultationForm() {
         email: getFieldValue('email'),
         phone: getFieldValue('phone'),
         message: getFieldValue('message'),
+        budgetPreference: getFieldValue('budgetPreference'),
         consent: getFieldValue('consent')
       });
 
@@ -1723,6 +1722,10 @@ function initConsultationForm() {
       }
 
       form.reset();
+      if (treatmentSelectedFromLink) {
+        form.querySelector('[name="treatmentCategory"]').value = treatmentSelectedFromLink.category;
+        form.querySelector('[name="preferredTreatment"]').value = treatmentSelectedFromLink.id;
+      }
       currentStepIndex = 0;
       updateStepUI();
 
@@ -1754,6 +1757,21 @@ function initConsultationForm() {
   if (preferredTreatment) {
     preferredTreatment.innerHTML = '<option value="">Select a treatment</option>';
     preferredTreatment.addEventListener('change', updateSummaryReview);
+  }
+
+  const requestedTreatmentId = new URLSearchParams(window.location.search).get('treatment');
+  treatmentSelectedFromLink = TREATMENTS.find((item) => item.id === requestedTreatmentId || item.slug === requestedTreatmentId) || null;
+  const budgetField = form.querySelector('#budgetField');
+  if (budgetField && !treatmentSelectedFromLink) {
+    budgetField.hidden = false;
+  }
+  if (treatmentSelectedFromLink && preferredCategory && preferredTreatment) {
+    preferredCategory.value = treatmentSelectedFromLink.category;
+    const options = TREATMENTS.filter((item) => item.category === treatmentSelectedFromLink.category);
+    preferredTreatment.innerHTML = `<option value="">Select a treatment</option>${options.map((item) => `<option value="${item.id}">${item.name}</option>`).join('')}`;
+    preferredTreatment.value = treatmentSelectedFromLink.id;
+    preferredCategory.disabled = true;
+    preferredTreatment.disabled = true;
   }
 
   updateStepUI();
@@ -1795,6 +1813,7 @@ function submitEnquiry(payload) {
     email: payload.email,
     phone: payload.phone,
     message: payload.message || '',
+    budgetPreference: payload.budgetPreference || '',
     consent: Boolean(payload.consent)
   };
 
