@@ -1163,7 +1163,7 @@ function renderTreatmentDetail() {
     <div class="detail-section">
       <div class="section-panel">
         <h2>Reviews</h2>
-        <div class="review-grid" style="margin-top: 18px; grid-template-columns: repeat(2, minmax(0, 1fr));">
+        <div class="review-grid treatment-review-grid" style="margin-top: 18px;">
           ${REVIEWS.filter((review) => review.category === treatment.category || review.treatment === treatment.name).slice(0, 2).map((review) => `
             <article class="review-card">
               <div class="review-header">
